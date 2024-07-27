@@ -68,6 +68,7 @@ const Product = () => {
                 md={1}
                 style={{
                   display: "flex",
+                
 
                 }}
               >
@@ -79,8 +80,9 @@ const Product = () => {
                         md={6}
                         style={{
 
-                          width: "250px",
+                          width: "200px",
                           margin: "5px"
+        
 
                         }}
                       >
@@ -102,7 +104,7 @@ const Product = () => {
           </div>
           <div>
             <br />
-            <h3 style={{ textAlign: "start" }}>Vehicle overview</h3>
+            <h3 style={{ textAlign: "start"  , color:"wheat"}}>Vehicle overview</h3>
             <p style={{ textAlign: "start", color:"grey"}}>{product.description}</p>
             <br />
             <div><img src={img12} alt="copy" width="100%" height="500px" /></div>
@@ -153,7 +155,7 @@ const Product = () => {
             </Row>
             <br />
           </div>
-          <div style={{backgroundColor:"#54595f", color:"white"}}>
+          <div style={{backgroundColor:"#54595f", color:"white" }}>
             INSTANT SAVING: <b>$7000</b>
           </div>
           <br />

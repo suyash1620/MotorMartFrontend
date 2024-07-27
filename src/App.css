@@ -521,7 +521,7 @@
   height: 100%;
   /* border: 1px solid pink; */
   width: 400px;
-  /* background-image: url("./react image/aaron-burden-AvqpdLRjABs-unsplash.jpg"); */
+  background-image: url("./react image/bg3.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -546,7 +546,7 @@
   height: 100%;
   /* border: 1px solid pink; */
   width: 400px;
-  /* background-image: url("./react image/s2.jpg"); */
+  background-image: url("./react image/bg1.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -570,7 +570,7 @@
   height: 100%;
   /* border: 1px solid pink; */
   width: 400px;
-  /* background-image: url("./react image/istockphoto-1126858679-2048x2048.jpg"); */
+  background-image: url("./react image/bg4.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -702,6 +702,7 @@
   gap: 10px;
   overflow: hidden;
   background-color: #0e0e0e;
+  
 }
 .searchdiv {
   /* display: flex;
@@ -716,10 +717,11 @@
   font-size: 14px;
 }
 .imgdiv {
-  width: 60%;
+  width: 70%;
   /* border: 1px solid rgb(226, 124, 23); */
-  height: 70rem;
-  margin-bottom: 10rem;
+  /* height: 70rem; */
+  height: 100%;
+  margin-bottom: 1rem;
   margin-top: 20px;
 }
 .pricebtn {
@@ -1038,7 +1040,7 @@ button[type="submit"]:hover {
 .details {
   /* border: 1px solid rgb(91, 8, 155); */
   width: 25%;
-  margin-top: -90%;
+  margin-top: -113%;
 }
 .arrayimg {
   width: 100%;
@@ -1280,7 +1282,7 @@ button {
   /* border: 3px solid white; */
   margin: 0 auto;
   position: absolute;
-  bottom: 0rem;
+  bottom: -14rem;
   left: 22rem;
   z-index: 200;
   color: white;

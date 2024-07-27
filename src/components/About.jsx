@@ -4,6 +4,7 @@ import CountUps from "./CountUps";
 const About = () => {
   return (
     <div>
+      <br/><br/><br/>
       <div className="contact">
         HOME / <span style={{ color: "red" }}> ABOUT </span>{" "}
       </div>

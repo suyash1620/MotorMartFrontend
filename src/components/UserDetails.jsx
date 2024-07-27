@@ -7,7 +7,7 @@ const OrdersDetails = () => {
   const [cartItems, setCartItems] = useState([]);
   const [path, setPath] = useState("");
   console.log(path);
-  const [name, setName] = useState("Ravindra Vishwakarma");
+  const [name, setName] = useState("");
   const [inputValue, setInputValue] = useState("");
   const [isEditing, setIsEditing] = useState(false);
 

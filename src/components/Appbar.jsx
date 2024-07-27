@@ -20,6 +20,7 @@ const Navbar = ({ totalProducts }) => {
   const logout = () => {
     console.log("logout");
     localStorage.removeItem("token");
+    // localStorage.removeItem("user");
     window.location.href = "/";
   };
 
@@ -38,7 +39,7 @@ const Navbar = ({ totalProducts }) => {
       justifyContent:"center"
     }}>
       <div style={{
-        width:"80%", 
+        width:"100%", 
         display:"flex",
         alignItems:"center",
         justifyContent:"center"

@@ -7,6 +7,7 @@ const Contact = () => {
   
   return (
     <div>
+      <br/><br/><br/>
       <div className="contact">
       
         HOME / <span style={{ color: "red" }}> CONTACT </span>
